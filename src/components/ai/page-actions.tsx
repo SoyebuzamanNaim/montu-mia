@@ -129,7 +129,8 @@ export function ViewOptions({
   const items = useMemo(() => {
     const fullMarkdownUrl =
       typeof window !== "undefined"
-        ? new URL(markdownUrl, window.location.origin)
+          //Fix: strip .mdx extension from generated markdown URL
+          ? new URL(markdownUrl, window.location.origin).toString().replace(/\.mdx$/, "")
         : "loading";
     const q = `Read ${fullMarkdownUrl}, I want to ask questions about it.`;
 

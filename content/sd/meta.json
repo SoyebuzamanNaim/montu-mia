@@ -8,6 +8,7 @@
     "load-balancer",
     "networking",
     "cdn",
+    "caching",
     "hook"
   ]
 }

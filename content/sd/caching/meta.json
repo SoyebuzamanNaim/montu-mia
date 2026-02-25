@@ -1,0 +1,11 @@
+{
+  "title": "ডাটাবেসের জ্যাম এবং ক্যাশিং",
+  "pages": [
+    "index",
+    "benefits",
+    "strategies",
+    "eviction",
+    "invalidation",
+    "challanges"
+  ]
+}
